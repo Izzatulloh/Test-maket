@@ -72,6 +72,12 @@ a:hover {
     font-size: 15px;
     border-radius: 12px;
     transition: 0.5s;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: var(--white);
+    background-color: var(--green);
 }
 
 .header_info {
@@ -131,10 +137,6 @@ a:hover {
     margin: 0px;
 }
 
-.nav-link:hover {
-    color: var(--white);
-    background-color: var(--green);
-}
 
 /* HEADER END */
 /* MAIN START */
@@ -416,6 +418,10 @@ a:hover {
 @media(max-width:990px) {
     .header_info {
         justify-content: center;
+    }
+
+    .nav-link:hover {
+        background-color: var(--red_dark);
     }
 }
 
